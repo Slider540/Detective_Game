@@ -45,14 +45,14 @@ text_name_rect = text_surface.get_rect(center=(400, 30))
 
 # текст с сообщением о столкновении
 text_font_collide = pygame.font.Font('prstartk.ttf', 50)
-text_collide = text_font_collide.render('CoLLiDE!!', False, 'Red')
+text_collide = text_font_collide.render('Game Over', False, 'Red')
 text_collide_rect = text_collide.get_rect(center=(400, 200))
 
 # текст главного меню
 text_font_new_game = pygame.font.Font('prstartk.ttf', 20)
 text_newgame_str1 = text_font_new_game.render('If you want to start,', False, 'Green')
 text_newgame_rect1 = text_newgame_str1.get_rect(center=(400, 325))
-text_newgame_str2 = text_font_new_game.render('press space', False, 'Green')
+text_newgame_str2 = text_font_new_game.render('press Space', False, 'Green')
 text_newgame_rect2 = text_newgame_str2.get_rect(center=(400, 350))
 
 # текст для подсчёта очков
